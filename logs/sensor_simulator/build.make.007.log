@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target sensor_simulator[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/sensor_simulator.dir/src/test_simulator.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/sensor_simulator.dir/src/sensor_simulator.cpp.o[0m
+In file included from [01m[K/home/slh/sensor_simulator_ws/src/SensorSimulator/src/sensor_simulator.cpp:1:0[m[K:
+[01m[K/home/slh/sensor_simulator_ws/src/SensorSimulator/include/sensor_simulator.h:[m[K In constructor ‘[01m[KSensorSimulator::SensorSimulator(ros::NodeHandle&)[m[K’:
+[01m[K/home/slh/sensor_simulator_ws/src/SensorSimulator/include/sensor_simulator.h:70:45:[m[K [01;31m[Kerror: [m[K‘[01m[Korig_cloud[m[K’ was not declared in this scope
+         if (pcl::io::loadPLYFile(ply_file, *orig_cloud) == -1) {
+[01;32m[K                                             ^[m[K
+In file included from [01m[K/home/slh/sensor_simulator_ws/src/SensorSimulator/src/test_simulator.cpp:1:0[m[K:
+[01m[K/home/slh/sensor_simulator_ws/src/SensorSimulator/include/sensor_simulator.h:[m[K In constructor ‘[01m[KSensorSimulator::SensorSimulator(ros::NodeHandle&)[m[K’:
+[01m[K/home/slh/sensor_simulator_ws/src/SensorSimulator/include/sensor_simulator.h:70:45:[m[K [01;31m[Kerror: [m[K‘[01m[Korig_cloud[m[K’ was not declared in this scope
+         if (pcl::io::loadPLYFile(ply_file, *orig_cloud) == -1) {
+[01;32m[K                                             ^[m[K
+CMakeFiles/sensor_simulator.dir/build.make:62: recipe for target 'CMakeFiles/sensor_simulator.dir/src/test_simulator.cpp.o' failed
+make[2]: *** [CMakeFiles/sensor_simulator.dir/src/test_simulator.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+CMakeFiles/sensor_simulator.dir/build.make:86: recipe for target 'CMakeFiles/sensor_simulator.dir/src/sensor_simulator.cpp.o' failed
+make[2]: *** [CMakeFiles/sensor_simulator.dir/src/sensor_simulator.cpp.o] Error 1
+CMakeFiles/Makefile2:1283: recipe for target 'CMakeFiles/sensor_simulator.dir/all' failed
+make[1]: *** [CMakeFiles/sensor_simulator.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

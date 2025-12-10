@@ -1,0 +1,6 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+[33m[1mCMake Warning[0m at /home/slh/sensor_simulator_ws/src/SensorSimulator/CMakeLists.txt:24 (message):
+  OpenCV_VERSION: 3.3.1
+
+

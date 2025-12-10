@@ -1,0 +1,6 @@
+devel_space: /home/slh/sensor_simulator_ws/devel
+install: false
+install_space: /home/slh/sensor_simulator_ws/install
+profile: default
+source_space: /home/slh/sensor_simulator_ws/src
+workspace: /home/slh/sensor_simulator_ws
